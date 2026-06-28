@@ -6,7 +6,7 @@ tags:
   - mortgage-backed-securities
   - trading
 metadata:
-  author: duncan
+  author: shiuhlon
   practice_areas:
     - Securitized Products
     - Agency MBS Trading
