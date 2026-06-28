@@ -1,3 +1,5 @@
+[![skills.sh](https://skills.sh/b/owner/repo)](https://skills.sh/owner/repo)
+
 # umbs
 
 Claude Code **skills** for UMBS / agency MBS trading-market-activity analysis.
