@@ -42,7 +42,7 @@ Synthesizes UMBS / agency MBS (Fannie Mae, Freddie Mac, Ginnie Mae) trading mark
 
 2. **Pull the market backdrop (auto-fetch)**
    - Treasury constant-maturity yields: FRED `DGS2`, `DGS5`, `DGS7`, `DGS10`, `DGS30` via `scripts/fetch_fred.sh`
-   - Primary mortgage rate: Freddie PMMS page / historical `.xlsx`, or Mortgage News Daily 30y index
+   - Primary mortgage rate: Freddie PMMS page / historical `.xlsx`, or Mortgage News Daily 30y index (or FRED `MORTGAGE30US` via `scripts/fetch_fred.sh` as a fallback)
    - Current-coupon proxy: Mortgage News Daily **MBS dashboard** EOD UMBS coupon prices
 
 3. **Pull activity & technicals (auto-fetch)**

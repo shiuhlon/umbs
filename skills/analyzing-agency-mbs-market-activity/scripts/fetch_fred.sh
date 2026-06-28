@@ -2,7 +2,7 @@
 # Fetch the latest observation for one or more FRED series via curl.
 # WebFetch is 403'd on fred.stlouisfed.org; the fredgraph.csv endpoint works with no API key.
 # Usage: fetch_fred.sh <SERIES_ID> [<SERIES_ID> ...]
-#   e.g. fetch_fred.sh DGS2 DGS5 DGS10 DGS30 MORTGAGE30US WSHOMCB
+#   e.g. fetch_fred.sh DGS2 DGS5 DGS7 DGS10 DGS30 MORTGAGE30US WSHOMCB
 set -euo pipefail
 
 if [ "$#" -lt 1 ]; then
